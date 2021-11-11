@@ -1,0 +1,20 @@
+public class Main {
+    
+    public static void main(String[] args){
+        RG pessoa = new RG();
+
+        System.out.println(pessoa.nome)
+        System.out.println(pessoa.mudarNome());
+    }
+}
+
+
+public class RG {
+        String nome = "Leticia";
+        String naturalidade = "Belo Horizonte";
+        long cpf = 123.456.789-00
+
+        void mudarNome() {
+            nome = "Leinha";
+        }
+    }

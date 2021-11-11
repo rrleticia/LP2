@@ -1,0 +1,27 @@
+Como fazer um "objeto"?
+    - Cria-se uma classe com o nome do seu objeto!
+    - Dentro dessa classe, existiram os atributos e os métodos desse objeto
+        - Se colocar static antes de um atributo: um único método/variável será criado e compartilhado.
+
+Como invocar esse objeto na classe Main:
+    - Primeiramente, cria-se o seguinte linha de comando:
+        __nome do objeto__ __defina uma nova variável__ = new _nome do objeto__();
+        Exemplo de um objeto "Pessoa": RG pessoa = new RG();
+
+    - Para invocar atributos apenas é necessário a seguinte linha:
+        __nome da variável__.__nome do atributo desejado__;
+        Exemplo de um atributo sendo invocado: pessoa.nome;
+
+    - Para usar os métodos apenas é necessário a seguinte linha:
+        __nome da variável__.__nome do método desejado__();
+        Exemplo de um método sendo invocado: pessoa.mudarNome();
+
+Como criar objetos sem atributos pre-estabelecidos:
+    - Usa-se um constructor: um método especial que é invocado quando um objeto é criado.
+    - Se no class Main tem: __nome do objeto__ __defina uma nova variável__ = new _nome do objeto__(), 
+    então, o constructor vai ser:
+        __nome do objeto__(__local para inserir paâmtros){
+                __bloco de código__
+        }
+
+

@@ -1,0 +1,54 @@
+1. Variáveis
+	Precisam sempre ser seu tipo declarado no inicio
+	- se usar final antes da tipagem, a variável não pode mais ser alterada durante a execução do código
+
+2. Tipo!
+	- Primitivo: 
+		- são fundamentais e indentificam valores
+		- não possuem métodos embutidos
+		- float, int, long, double, boolean, etc (letra minuscula).
+	- Classe Wrapper:
+		- consegue representar o tipo primitivo como objeto
+		- possuem métodos embutidos
+		- String, Integer, Float, etc (letra minuscula).
+	- Observação: Autoboxing é um processo interno automático do próprio java, no qual,
+		a linguaguem automaticamente de primitivo para wrapper (o inverso chama-se de unboxing).
+
+3. Condiconais! 
+	- Leem apenas valores booleanos como condição.
+	- Operadores: and = &&, or = ||, not = !, e as outras que do módulo matemático.
+	- Estrututa:
+		if (__condição__) {
+			bloco de código
+		}
+		else if (__condição__) {
+			bloco de código
+		}
+		else {
+			bloco de código
+		}
+
+4. Laços:
+	- For:
+		- Modelo de String (quebra a string em palavras, dentro do for, e executa):
+			for (String palavra : linha.split(" "))
+		- Modelo de index:
+			for (int i = __inicio__; i = __final__; i++ __ritmo de aumento__) {}
+	- While:
+		- while(__condicao verdadeira__) {
+			if(__falsidade__){
+				break;
+			}
+		}
+		- do/while: executa sempre uma primeira vez e resume a execução no while
+		- Observação: a condicao verdadeira deve ser inicializada fora do loop
+
+5. Métodos:
+	- Semelhantes as funções de python, são blocos de código com: nome, parâmetros e retorno.
+	- Assinatura do método: linha de descrição.
+	- Importantes para a modularização.
+	- Um método: public static __tipo de retorno__ __nome do método(__tipo do parametro__ variável).
+	- No fim do bloco de código é necessário colocar o "return" caso esse método tenha retorno.
+
+
+

@@ -1,0 +1,11 @@
+import java.util.scanner
+
+- Definir o scanner:
+    Scanner scanner = new Scanner(System.in);
+
+- Detalhe:
+    Int numero = scanner.nextInt(); Apenas lê o número, portanto o espaço do enter fica por fora!
+                                    Ou seja, o próximo scanner usado que tiver relação com "Line"
+                                    vai automáticamente pegar esse espaço para uso.
+
+    String numero = scanner.nextLine()

@@ -1,0 +1,11 @@
+Método de formatação para print em Java
+
+Seguindo a ordem:
+    %  __flags__ __precision__ __width__ __characther conversion__
+
+- Usado colocando um "%" exatamente onde a inserção ocorre:
+    myString = "Brigadeiro"
+    System.out.printf("Eu amo %s", myString)
+    - Sobre espaçoes "%10s", coloca 10 espaços a frente a string a ser inserida
+    - Para float! Se colocar "%.2f", a saída tem duas casas após o ponto.
+    - Observação: s para string, d para int, f para float, b para boolean.

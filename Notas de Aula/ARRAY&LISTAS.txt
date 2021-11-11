@@ -1,0 +1,25 @@
+Sobre Arrays em Java:
+
+- Usado para guardar multiplos valores em uma única váriavel.
+- Somente podem receber valores que são do mesmo tipo declarado.
+- Tem tamanho definido! Imutável.
+- Podem ser bidimensionais, ou seja, matrizes.
+
+- Exemplo unidimensional:
+    String[] palavras = new palavras[10] 
+- Exemplo bidimensional:
+    String[][] palavras = new palavras[5][5]
+- Como fazer um array com cada parte de uma string:
+    String[] nomes = input.split(" ");
+
+Sobre Listas em Java:
+
+- Usado para guardar multiplos valores em uma única váriavel.
+- Somente podem receber valores que são do mesmo tipo declarado.
+- Tem tamanho indefinido! Mutável.
+- Podem ser bidimensionais, ou seja, matrizes.
+- Precisam da biblioteca para funcionar:
+    import java.util.ArrayList
+
+-Exemplo unidimensional:
+    ArrayList<__Classe Wrapper__> palavras = new ArrayList<__Classe Wrapper__>();

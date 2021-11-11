@@ -1,0 +1,17 @@
+- Detalhes para fazer swap em java!
+    - Necessita obrigatoriamente de uma variável auxilar seguindo a lógica:
+        int x 
+        int y
+        int x
+
+        z = x
+        x = y
+        y = z
+
+- Uma forma de transformar um número em string para número em __insira classe__:
+    int numero = Integer.parseInt(numString);
+    double numero = Double.parseDouble(numString);
+    float numero = Float.parseFloat(numString);
+    String numero = String.parseString(numInt)
+    Observação! transformar um double em string:  
+    String numero = Double.toString(numDouble)
